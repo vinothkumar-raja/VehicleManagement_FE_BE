@@ -1,0 +1,83 @@
+.home {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 1000px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.textInput {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+
+.submit:hover {
+  background-color: #0056b3;
+}
+
+
+.delete {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+
+.delete:hover {
+  background-color: #0056b3;
+}
+
+.tableStyle {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableStyle td,
+.tableStyle th {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.tableStyle th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.tableStyle tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.navi {
+  margin-top: 20px;
+}
